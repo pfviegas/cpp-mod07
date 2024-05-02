@@ -1,6 +1,6 @@
 // incluir header 42
 
-# include "../include/iter.hpp"
+#include "../include/iter.hpp"
 
 template <typename T>
 void print(const T& value)
@@ -40,6 +40,4 @@ int main()
 		iter(a, 2, print<std::string>);
 		std::cout << std::endl;
 	}
-
-
 }

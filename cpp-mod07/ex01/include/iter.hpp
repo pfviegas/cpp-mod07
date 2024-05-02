@@ -12,5 +12,4 @@ void iter(T *array, int length, F func)
 		func(array[i]);
 }
 
-
 #endif
